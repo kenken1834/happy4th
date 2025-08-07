@@ -4,15 +4,15 @@ p {
 }
 
 p{
-	text-indent: 50px;
+	text-indent: 80px;
 }
 
 h1 {
-	font-weight: 200;
+	font-weight: 300;
 }
 
 body {
-	margin: 0px;
+	margin: 2px;
 }
 
 .container {
@@ -24,11 +24,11 @@ body {
 
 .heart {
 	position: absolute;
-	left: 50%;
+	left: 100%;
 	top: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	transiton: transform 2s;
+	transiton: transform 5s;
 	z-index: 1;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .message {
-	padding: 20px;
-	background-color: #eee;
+	padding: 50px;
+	background-color: ffbfbf;
 	min-width: 400px;
 	height: 75%;
 	position: absolute;
-	left: 50%;
+	left: 70%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 0;
@@ -59,7 +59,7 @@ body {
 
 .heart > img:hover {
 	animation-name: beat;
-	animation-duration: 2s;
+	animation-duration: 60s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-play-state: running;
