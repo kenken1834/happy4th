@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-	margin: 2px;
+	margin: 200px;
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
 
 .heart {
 	position: absolute;
-	left: 100%;
+	right: 10%;
 	top: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
